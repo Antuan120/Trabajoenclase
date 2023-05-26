@@ -141,11 +141,12 @@ public class GUIManual extends JFrame {
         // Pinta y ajusta diseño del contenedor de contenidos
         pintarPanelDerecho();
         
-        setTitle("Mundial");
+
+        //Aqui se configura el titulo
+        setTitle("Mundial Champs");
         pack();
         setVisible(true);
     }
-    
     private void pintarLogo() {
         jPanelIconFIFA.add(iconFIFA);
         jPanelIconFIFA.setOpaque(false);
